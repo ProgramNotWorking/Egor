@@ -6,9 +6,7 @@ public class Main {
         Car car = new Car("Митсубиси", 2007, 108000.0,
                 false, "Япония");
         car.setDateSale("10 января 2020");
-        car.getDateSale();
         car.setBuyerName("Иванов Иван Иванович");
-        car.getBuyerName();
         car.displayInfo();
 
     }
