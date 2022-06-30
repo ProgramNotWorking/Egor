@@ -99,7 +99,7 @@ public class Car {
             masStr[i] = String.valueOf(masStr[i].charAt(0));
         }
 
-        name = String.join("", masStr[0], masStr[1], masStr[2]);
+        name = String.join(".", masStr[0], masStr[1], masStr[2]);
         return name;
 
     }
